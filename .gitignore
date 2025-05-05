@@ -1,0 +1,65 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+
+# Logs
+*.log
+
+# Data files
+data/
+historical_data/
+*.csv
+
+# Environment and config
+*.env
+hadoop.env
+db_config.ini
+
+# Shell scripts
+deploy_fixed_app.sh
+deploy_venv_app.sh
+setup_postgres_db.sh
+setup_simplified.sh
+setup_webapp.sh
+start-hadoop.sh
+upload_to_hdfs.sh
+
+# Docker and compose
+docker-compose.yml
+docker-compose-hbase.yml
+docker-compose-webapp.yml
+Dockerfile
+
+# Jupyter and notebooks
+notebooks/
+.ipynb_checkpoints/
+
+# Misc scripts (can keep or remove as needed)
+check_environment.py
+d.py
+feature_aggregator.py
+hdfs_to_postgres.py
+multi_csv_importer.py
+query_historical_data.py
+
+# Logs
+home_credit_app.log
+prediction_app.log
+
+# Apps you may want to ignore if redundant
+enhanced_home_credit_app.py
+fixed_postgres_prediction_app.py
+fixed_prediction_app.py
+full_fixed_app.py
+postgres_prediction_app.py
+prediction_app.py
+home_credit_predictor.py
+
+# Temp and uploads
+temp_upload.csv
+
+# Web
+webapp/
