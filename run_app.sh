@@ -96,4 +96,4 @@ fi
 echo "=========================================================="
 echo "Starting Home Credit Default Risk Predictor..."
 echo "=========================================================="
-streamlit run home_credit_predictor.py
+streamlit run fixed_home_credit_predictor.py
